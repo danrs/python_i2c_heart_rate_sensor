@@ -14,6 +14,5 @@ setup(name='python_i2c_heart_rate_sensor',
     license='MIT',
     packages=['python_i2c_heart_rate_sensor'],
     install_requires=[
-        'Adafruit_BBIO',
     ],
     zip_safe=False)
