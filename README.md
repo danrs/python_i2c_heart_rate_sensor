@@ -12,7 +12,7 @@ cd python_i2c_heart_rate_sensor
 sudo python setup.py install
 ```
 
-Ensure you have internet access so that you can install any required dependancies.
+Ensure you have internet access so that you can install any required dependencies.
 
 See usage examples in the examples folder.
 
