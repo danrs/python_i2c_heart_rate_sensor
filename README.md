@@ -5,9 +5,12 @@ Python library for using the Grove I2C finger-clip heart rate sensor available f
 
 The sensor is a bit temperamental. I've had best results when using it on my fingernail, wrist and earlobe, but your mileage may vary. It often takes about 10 seconds or more for the sensor to start registering a pulse once you place it against your skin.
 
-To install, download this library (git clone or click the download zip button) and place the unzipped contents somewhere handy on your BeagleBone Black or BeagleBone Green. Then cd to the directory of the library and execute the following command:
-
+To install, execute the following commands:
+```
+git clone https://github.com/danrs/python_i2c_heart_rate_sensor/ # or download as a zip and extract it somewhere handy
+cd python_i2c_heart_rate_sensor
 sudo python setup.py install
+```
 
 Ensure you have internet access so that you can install any required dependancies.
 
