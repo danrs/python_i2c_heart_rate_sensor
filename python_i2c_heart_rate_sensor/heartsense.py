@@ -28,9 +28,9 @@ class heartsense:
     def __init__(self):
         pass
     def read(self):
-        try:
-            value=bus.read_byte(self.addr)
-        except IOError as e:
-            print 'Input error:',e
-            return -1
+        """
+        Read from the sensor.
+        Raises an IOError on failure
+        """
+        value=bus.read_byte(self.addr)
         return value
