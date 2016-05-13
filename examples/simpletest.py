@@ -7,7 +7,7 @@
 import time
 import python_i2c_heart_rate_sensor as heartsense
 
-sensor = heartsense.heartsense() # default pin is AIN0
+sensor = heartsense.heartsense()
 while True:
     value = sensor.read()
     print "Heart rate (bpm):",value
