@@ -25,7 +25,7 @@ bus=smbus.SMBus(1)
 class heartsense:
     def __init__(self):
         self.addr = 0x50 # Default i2c address of sensor
-        read(self) # check sensor is connected
+        self.read() # check sensor is connected
 
     def read(self):
         """
