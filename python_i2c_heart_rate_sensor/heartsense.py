@@ -23,10 +23,10 @@ import smbus
 bus=smbus.SMBus(1)
 
 class heartsense:
-    # Default i2c address of sensor
-    addr = 0x50
     def __init__(self):
-        pass
+        self.addr = 0x50 # Default i2c address of sensor
+        read(self) # check sensor is connected
+
     def read(self):
         """
         Read from the sensor.
