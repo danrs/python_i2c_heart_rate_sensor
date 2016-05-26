@@ -7,7 +7,7 @@ The sensor is a bit temperamental. I've had best results when using it on my fin
 
 To install, execute the following commands:
 ```
-git clone https://github.com/danrs/python_i2c_heart_rate_sensor/ # or download as a zip and extract it somewhere handy
+git clone https://github.com/modular-CAT/python_i2c_heart_rate_sensor/ # or download as a zip and extract it somewhere handy
 cd python_i2c_heart_rate_sensor
 sudo python setup.py install
 ```
